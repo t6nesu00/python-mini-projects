@@ -5,5 +5,7 @@ user_string = input("Give your string: ")
 reverse_string = user_string[::-1]
 if user_string == reverse_string:
     print("This", user_string, "is a palindrome word.")
+else:
+    print("This", user_string, "is not a palindrome string.")
 
 # created by Suman Nepali May, 2019
